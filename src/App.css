@@ -1,0 +1,203 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-style: italic;
+}
+
+.Maincontainer {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+
+.login_Btn:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: black;
+}
+
+.fdsgfhsgh {
+    font-size: xx-large;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px gold;
+}
+
+.card {
+    width: 300px;
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.Main_Card_Image {
+    width: 300px;
+}
+
+.Button {
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    border-radius: 20px;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: blue;
+}
+
+.Button:hover {
+    box-shadow: 0px 0px 20px yellow;
+    color: whitesmoke;
+    background-color: black;
+}
+
+.Buttons_Div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+
+}
+
+.card-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: whitesmoke;
+
+}
+
+.card-description {
+    margin: 10px 0 0;
+    font-size: 1rem;
+    color: whitesmoke;
+}
+
+.buttons:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+.MainCard:hover {
+    box-shadow: 0px 0px 20px gold;
+}
+
+.MainCard {
+    background-color: black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.card-image_Main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+}
+
+
+.main-card {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+    align-items: center;
+}
+
+.HomeBtn {
+    margin-left: 20px;
+}
+
+.product-image {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+}
+
+.product-details {
+    padding: 16px;
+}
+
+.product-Heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.product-category,
+.product-price {
+    margin: 8px 0;
+    color: #888;
+}
+
+.product-rating {
+    display: flex;
+    align-items: center;
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.rating-value {
+    margin-right: 4px;
+}
+
+.add-to-cart-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #2980b9;
+}
